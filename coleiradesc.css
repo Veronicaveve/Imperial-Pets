@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    margin: -8px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #feab6b;
+}
+.search {
+    width: 300px;
+}
+
+.logoimg {
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.pesquisa {
+    margin-right: 100px;
+}
+
+.lupa {
+    width: 16px;
+}
+
+form input, form button {
+    font-size: 18px;
+    border-radius: 0.3em;
+    border: 2px solid #feab6b;
+}
+
+form button {
+    background-color: #00a7c7;
+    width: auto;
+}    
+.navbar {
+    margin: 0 -8px;
+    background-color: #feab6b;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.navbar ul li {
+    display: inline-block;
+}
+form {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.navbar {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.ademenu {
+    text-decoration: none;
+    color: white;
+    padding: 0 15px;
+    font-size: 20px;
+}
+
+.produto{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 50px 470px 60px 250px;
+    justify-items: end;
+}
+
+.produtoimg{
+    margin-top: 40px;
+    margin-right: 30px;
+}
+
+h3{
+     margin: 2px;
+     font-size: 18px;
+}
+
+.enviar{
+    background-color: #9bcfe0;
+    width: 120px; height: 35px;
+    font-size: 16px;
+    border-radius: 0.3em; 
+    border: 2px solid #00a7c7;
+    color: #000;
+    cursor: pointer;
+}
+.preco{
+    color: #00a7c7;
+    font-size: 24px;
+    font-weight: bold;
+}

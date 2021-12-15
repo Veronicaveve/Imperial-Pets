@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    margin: -8px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #fa650f;
+}
+.search {
+    width: 200px;
+}
+
+.logoimg {
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.pesquisa {
+    margin-right: 5px;
+}
+
+.lupa {
+    width: 16px;
+}
+
+form input, form button {
+    font-size: 16px;
+    border-radius: 0.3em;
+    border: 2px solid #c5431b;
+}
+
+form button {
+    background-color: #c5431b;
+    width: auto;
+}    
+.navbar {
+    margin: 0 -8px;
+    background-color: #c5431b;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.navbar ul li {
+    display: inline-block;
+}
+form {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.navbar {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.ademenu {
+    text-decoration: none;
+    color: white;
+    padding: 0 15px;
+    font-size: 20px;
+}
+
+.categoria {
+    margin: 40px 160px;
+    color: #c5431b;
+    font-size: 34px;
+}
+
+.produtoall {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+span {
+    color: #fa650f;
+}
+.produtoimg {
+    width: 300px;
+    padding-left: 90px;
+}
+footer {
+    padding: 10px 20px;
+    background: #c5431b;
+    color: white;
+    text-align: center;
+    margin: 40px 160px;
+}

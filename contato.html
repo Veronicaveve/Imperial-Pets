@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Imperador Pets</title>
+    <link rel="stylesheet" href="contatostyle.css" />
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <img src="imagens/Logo01.png" class="logoimg" />
+      </div>
+      <div class="navbar">
+        <ul>
+          <li><a class="ademenu" href="inicio.html">Início</a></li>
+          <li><a class="ademenu" href="racao.html">Rações</a></li>
+          <li><a class="ademenu" href="brinquedo.html">Brinquedos de Pelúcia</a></li>
+          <li><a class="ademenu" href="coleira.html">Coleiras e Guias</a></li>
+          <li><a class="ademenu" href="contato.html">Contato</a></li>
+        </ul>
+      </div>
+      <form class="pesquisa">
+        <input
+          class="search"
+          type="search"
+          id="texto"
+          placeholder="O que seu pet precisa?"
+        />
+        <button type="submit">
+          <img src="imagens/lupa.png" width="100px" class="lupa" />
+        </button>
+      </form> 
+    </header>
+
+    <h1>Entre em Contato</h1>
+    <p>Estamos a disposição para qualquer informação.</p>
+
+    <form class="formcontato">
+        <div class="contato">
+            <label for="nome">NOME COMPLETO:</label>
+            <input type="text" id="nome" required>
+        </div>
+        <div class="contato">
+            <label for="telefone">TELEFONE:</label>
+            <input type="tel" id="telefone" required>
+        </div>
+        <div class="contato">
+            <label for="email">E-MAIL:</label>
+            <input type="email" id="email" required>
+        </div>
+        <div class="contato">
+            <label>DEIXE SUA MENSAGEM:</label>
+            <textarea></textarea>
+        </div>   
+    </form>
+        <button class="enviar" type="submit">Enviar</button>
+        <footer>
+           © Imperador Pets. Todos os direitos reservados.
+        </footer>
+  </body>
+</html>
